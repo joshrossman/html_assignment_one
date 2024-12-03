@@ -1,0 +1,93 @@
+div header{
+    color:rgba(230, 156, 87, 0.913);
+    font-family:"copperplate", fantasy;
+    font-size:35px;
+    font-style: bold;
+    text-shadow:1px 1px 10px rgb(249, 249, 247);
+    
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:5px;
+    
+}
+
+header{
+    font-size:55px;
+    text-align:center;
+    font-family:"copperplate";
+    color:white;
+    text-shadow:4px 4px 8px black;
+    margin-bottom:-7px
+    
+    
+}
+body{
+    background-color:rgb(247, 242, 228);
+
+}
+
+.float-parent{
+    
+    padding:20px;
+    
+}
+
+
+div{
+    background-color:blanchedalmond;
+    border-style:solid;
+    border-color:rgb(167, 165, 165);
+    border-radius:6px;
+    margin-bottom:10px;
+    
+}
+ol{
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:25px;
+    margin-left:30px;
+    margin-right:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+
+}
+ul{
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:25px;
+    margin-left:30px;
+    margin-right:50px;
+    list-style-position:inside;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-style: italic;
+}
+img{
+    opacity: 75%;
+    border-radius: 6px;
+    width:50px;
+    height:50px;
+    
+    
+}
+footer{
+    background-color:rgb(247, 243, 237);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 6px;
+    border-style: dotted;
+    border-color: #0000002b;
+
+}
+p{
+    margin-bottom:0px;
+
+}
+a:hover{
+    color:aqua;
+}
+#yellow{
+    color:rgb(218, 230, 45);
+}

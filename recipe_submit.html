@@ -1,0 +1,45 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="form_style.css">
+        <title>New Recipes</title>
+    
+    </head>
+<form 
+    action="/recipe"
+    method="POST">
+    <fieldset>
+        <label for="First Name">First Name:</label>
+        <input
+            type="text"
+            placeholder="First Name"
+            class="text"
+            name="first_name"><br>
+        <label for="Last Name">Last Name:</label>
+        <input
+            type="text"
+            placeholder="Last Name"
+            class="text"
+            name="last_name"><br>
+        <label for="email">Email:</label>
+        <input
+            type="email"
+            id="email"
+            class="text"
+            placeholder="Email Adress"
+            name="Email">
+    </fieldset>
+    <fieldset>
+        <label for="recipe" style="margin-bottom:10px;margin-top:0px">Please Write Out Your Recipe:</label>
+        <textarea
+            rows="20"
+            cols="75"
+            name="recipe"></textarea>
+    </fieldset>
+    <fieldset>
+        <input
+            type="submit"
+            class="submit">
+    </fieldset>
+</form>
+</html>
